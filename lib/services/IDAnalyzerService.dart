@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:image/image.dart' as img;
 
 class IDAnalyzerService {
-  final String apiKey = "GxrsXoLrgeEmOiP4vdW8cAFggpL7zGub"; // Replace with your API key
+  final String apiKey = "ur api key"; // Replace with your API key
   final String apiUrl = "https://api2.idanalyzer.com/quickscan"; // EU endpoint
 
   Future<void> analyzeID(File idImage, File faceImage, String profileId) async {
